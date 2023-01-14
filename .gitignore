@@ -410,3 +410,6 @@ baseline.json
 # Husky
 .husky/_
 aio/content/examples/.DS_Store
+
+appsettings.json
+/DatingAppSolution/DatingApp/ClientApp/.angular/cache/
