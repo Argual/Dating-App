@@ -23,7 +23,7 @@ namespace DatingApp.Controllers
             return await _context.Users.ToListAsync();
         }
 
-        [HttpGet("{"+nameof(id)+"}}")]
+        [HttpGet("{"+nameof(id)+"}")]
         public async Task<ActionResult<AppUser>> GetUserAsync(int id)
         {
             var user = await Context.Users.FindAsync(id);
